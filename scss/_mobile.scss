@@ -1,0 +1,82 @@
+@media  only screen and (max-width:600px) {
+    body{
+      background-size: 200%;
+    }
+    .container {
+      width: 400px;
+      
+      p{
+      display: none;
+    
+      }
+      h6{
+        display: block;
+        font-size: 0.7rem;
+        color: $Grayish-Blue;
+      }
+      .section-content{
+        height: 370px;
+      }
+    }
+    
+
+    .top{
+      display: block;
+      align-self: center;
+      line-height: 2,4rem;
+      
+       h2{
+        text-align: center;
+       }
+
+      .show-text{
+        display: none;
+      }
+     
+  }
+
+
+  .progressbar{
+    background-color: $Light-Grayish-Blue;
+    height: 7px;
+    margin: 30px;
+    border-radius: 10px;
+   
+    .green{
+      width: 180px;
+  
+      img{
+  
+        margin-left: 180px;
+       
+      }
+  
+      
+    }
+    
+  }
+  .hidden-text{
+    display: block;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: $Dark-Desaturated-Blue;
+
+    .gif{
+      font-size: 0.9rem;
+      color: $Light-Grayish-Blue1;
+    }
+  }
+
+  .write{
+   margin-top: 60px;
+    
+  }
+  .vertical{
+    display: block;
+    text-align: center;
+   align-content: center;
+    margin-top: 25px;
+   
+  }
+}

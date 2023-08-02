@@ -1,0 +1,28 @@
+.progressbar{
+    background-color: $Light-Grayish-Blue;
+    height: 7px;
+    margin: 40px;
+    border-radius: 10px;
+   
+    .green{
+      background-color: $Strong-Cyan;
+      width: 250px;
+      height: 7px;
+      border-radius: 10px;
+  
+      img{
+        justify-content: center;
+        background-color: $Strong-Cyan;
+        width: 30px;
+        height: 30px;
+        transform: translate(-50%, -50%);
+        margin-left: 250px;
+        margin-bottom: 40px;
+        border-radius: 50px; 
+        box-shadow: $Soft-Cyan 3px 3px;
+      }
+  
+      
+    }
+    
+  }

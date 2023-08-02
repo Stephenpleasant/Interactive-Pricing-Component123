@@ -1,0 +1,26 @@
+.vertical{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+    ul{
+      list-style-type: none;
+      margin-left: 20px;
+      li{
+        font-size: 0.8rem;
+        color: $Light-Grayish-Blue;
+        line-height: 2em;
+      }
+    }
+    button{
+        background-color: $Dark-Desaturated-Blue;
+        width: 140px;
+        height: 40px ;
+        color:$Very-Pale-Blue ;
+        border-radius: 20px;
+        margin-right: 15px;
+        font-size: 0.7rem;
+        margin-top: 45px;
+        cursor: pointer;
+      }
+      }
